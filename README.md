@@ -110,7 +110,7 @@ Two techniques were tested and compared:
 ## ⚙️ Setup & Installation
 
 ```bash
-git clone https://github.com/<your-username>/Diabetes-Prediction-Model.git
+git clone https://github.com/diptangshudas7-code/Diabetes-Prediction-Model.git
 cd Diabetes-Prediction-Model
 pip install -r requirements.txt
 ```
