@@ -101,10 +101,9 @@ Two techniques were tested and compared:
 
 ## 💡 Key Insights
 
-<!-- PLACEHOLDER: fill in based on your actual final numbers, e.g. -->
-- <!-- e.g. "SMOTE improved recall on the diabetic class from X to Y, at the cost of precision dropping from A to B — an acceptable trade-off for a screening tool." -->
-- <!-- e.g. "class_weight='balanced' did not outperform the plain model on this split, showing that imbalance-handling techniques don't always help and should be tested empirically." -->
-- <!-- e.g. top 2-3 most important features from the feature importance chart -->
+- **SMOTE + custom class weighting achieved the highest recall (0.83)** on the diabetic class, making it the strongest choice when minimizing missed diagnoses is the top priority — at the cost of lower precision (0.57).
+- **`class_weight='balanced'`** alone underperformed plain SMOTE** (recall 0.61 vs 0.72), showing that imbalance-handling techniques don't always help and should be validated empirically rather than assumed.
+- **Random Forest (SMOTE) gave the best overall balance**, with the highest F1-score (0.69) and strong recall (0.78), making it the best all-around candidate for a single production model.
 
 ---
 
