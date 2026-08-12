@@ -86,14 +86,14 @@ Two techniques were tested and compared:
 
 | Model | Train Accuracy | Test Accuracy | Class 1 Precision | Class 1 Recall | Class 1 F1 |
 |---|---|---|---|---|---|
-| Logistic Regression (Plain) | _% | _% | _ | _ | _ |
-| Decision Tree (Plain) | _% | _% | _ | _ | _ |
-| Decision Tree (Balanced) | _% | _% | _ | _ | _ |
-| Random Forest (Plain) | _% | _% | _ | _ | _ |
-| Decision Tree (SMOTE) | _% | _% | _ | _ | _ |
-| Logistic Regression (SMOTE) | _% | _% | _ | _ | _ |
-| Decision Tree (SMOTE + Custom Weights) | _% | _% | _ | _ | _ |
-| Random Forest (SMOTE) | _% | _% | _ | _ | _ |
+| Logistic Regression (Plain) | 79.32% | 70.13% | 0.59 | 0.50 | 0.54 |
+| Decision Tree (Plain) | 81.43% | 75.97% | 0.64 | 0.72 | 0.68 |
+| Decision Tree (Balanced) | 83.88% | 72.73% | 0.61 | 0.61 | 0.61 |
+| Random Forest (Plain) | 84.53% | 72.08% | 0.63 | 0.50 | 0.56 |
+| Decision Tree (SMOTE) | 84.25% | 75.97% | 0.63 | 0.74 | 0.68 |
+| Logistic Regression (SMOTE) | 74.38% | 71.43% | 0.58 | 0.67 | 0.62 |
+| Decision Tree (SMOTE + Custom Weights) | 82% | 72.08% | 0.57 | 0.83 | 0.68 |
+| Random Forest (SMOTE) | 86.5% | 75.32% | 0.62 | 0.78 | 0.69 |
 
 <!-- PLACEHOLDER: optionally paste a confusion matrix / feature importance screenshot below -->
 
