@@ -66,7 +66,7 @@ Diabetes is a widespread chronic condition, and early prediction from routine di
 4. **Baseline Models** — Logistic Regression, Decision Tree, Random Forest (no imbalance handling)
 5. **Imbalance Handling** — retrained models using `class_weight='balanced'` and **SMOTE** (oversampling applied to training data only)
 6. **Evaluation** — confusion matrix + classification report (precision, recall, F1) on the untouched test set for every model
-7. **Feature Importance** — visualized which features the Decision Tree(Plain) relied on most
+7. **Feature Importance** — visualized which features the Random Forest(SMOTE) Model relied on most
 
 ---
 
